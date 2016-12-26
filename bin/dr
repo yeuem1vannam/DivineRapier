@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "divine_rapier/runner"
+
+puts ARGV
+DivineRapier::Runner.new(ARGV.dup).execute!
